@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.4">
+  <diagram name="第 1 页" id="QvlqY7IafCB_xVsJFdbL">
+    <mxGraphModel dx="1371" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-2" value="初始化阶段&#xa;加载数据到Scratchpad" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="328" y="120" width="219" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-3" value="预加载阶段&#xa;数据从Scratchpad到FIFO" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="248" width="236" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-4" value="计算阶段&#xa;PE阵列执行乘加操作" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="376" width="206" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-5" value="输出阶段&#xa;结果写回Scratchpad" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="504" width="203" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-6" value="最终输出&#xa;结果输出到文件" style="whiteSpace=wrap;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="632" width="172" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" edge="1" parent="1" source="Dj-rK8RL94VjDFnry3o1-2" target="Dj-rK8RL94VjDFnry3o1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" edge="1" parent="1" source="Dj-rK8RL94VjDFnry3o1-3" target="Dj-rK8RL94VjDFnry3o1-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" edge="1" parent="1" source="Dj-rK8RL94VjDFnry3o1-4" target="Dj-rK8RL94VjDFnry3o1-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj-rK8RL94VjDFnry3o1-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=1;" edge="1" parent="1" source="Dj-rK8RL94VjDFnry3o1-5" target="Dj-rK8RL94VjDFnry3o1-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
