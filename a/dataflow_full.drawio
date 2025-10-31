@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="28.2.8">
   <diagram name="第 1 页" id="Gy5xqi0gqiuN22DDJ5Di">
-    <mxGraphModel dx="1371" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1007" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,36 +20,34 @@
           <mxGeometry x="64.4459090909091" y="309.995294117647" width="161.11111111111111" height="50.58823529411765" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-37" value="外部内存" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="311.22" y="838" width="124" height="54" as="geometry" />
+          <mxGeometry x="250" y="826" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-38" value="Scratchpad内存" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="560" y="830" width="580" height="70" as="geometry" />
+          <mxGeometry x="540" y="820" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-39" value="输出结果" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="820" width="160" height="72" as="geometry" />
+          <mxGeometry x="1220" y="820" width="160" height="72" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-40" value="控制地址生成器" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="580" y="190" width="360" height="54" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-41" value="加载数据&#xa;(输入激活/权重)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-37" target="eothq0L4Ka9QhwZ8H1on-38" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="880" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="510" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-42" value="读取最终结果" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-38" target="eothq0L4Ka9QhwZ8H1on-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1190" y="850" />
+              <mxPoint x="1190" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-43" value="读取数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.75;entryY=1;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-38" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="980" y="770" />
+              <mxPoint x="1110" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,10 +70,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-47" value="写入部分和" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-33" target="eothq0L4Ka9QhwZ8H1on-38" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0102" y="15" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="863" y="790" />
+              <mxPoint x="820" y="760" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-48" value="地址/命令" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-40" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
