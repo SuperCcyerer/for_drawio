@@ -66,10 +66,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-47" value="写入部分和" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-33" target="eothq0L4Ka9QhwZ8H1on-38" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0904" y="15" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="720" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-48" value="地址/命令" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-40" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
