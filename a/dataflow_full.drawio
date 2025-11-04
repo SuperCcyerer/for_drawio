@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="28.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.9">
   <diagram name="第 1 页" id="Gy5xqi0gqiuN22DDJ5Di">
-    <mxGraphModel dx="1007" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="1127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eothq0L4Ka9QhwZ8H1on-29" value="PE阵列&#xa;核心计算单元" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;container=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="270" width="440" height="440" as="geometry" />
+          <mxGeometry x="300" y="270" width="440" height="430" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-33" value="Scratchpad接口" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="870" y="280" width="290" height="430" as="geometry" />
+          <mxGeometry x="850" y="270" width="290" height="430" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-34" value="IAct FIFO" style="whiteSpace=wrap;strokeWidth=2;" parent="eothq0L4Ka9QhwZ8H1on-33" vertex="1">
-          <mxGeometry x="52.727272727272734" y="64.50098039215686" width="161.11111111111111" height="50.58823529411765" as="geometry" />
+          <mxGeometry x="65.90727272727273" y="64.50098039215686" width="161.11111111111111" height="50.58823529411765" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-35" value="Wght FIFO" style="whiteSpace=wrap;strokeWidth=2;" parent="eothq0L4Ka9QhwZ8H1on-33" vertex="1">
           <mxGeometry x="65.9090909090909" y="200" width="161.1081818181818" height="44.51" as="geometry" />
@@ -20,61 +20,56 @@
           <mxGeometry x="64.4459090909091" y="309.995294117647" width="161.11111111111111" height="50.58823529411765" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-37" value="外部内存" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="250" y="826" width="180" height="60" as="geometry" />
+          <mxGeometry x="210" y="784" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-38" value="Scratchpad内存" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="540" y="820" width="580" height="70" as="geometry" />
+          <mxGeometry x="500.00000000000006" y="780" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-39" value="输出结果" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="820" width="160" height="72" as="geometry" />
+          <mxGeometry x="1160" y="778" width="160" height="72" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-40" value="控制地址生成器" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="580" y="190" width="360" height="54" as="geometry" />
+          <mxGeometry x="590" y="190" width="360" height="54" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-41" value="加载数据&#xa;(输入激活/权重)" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-37" target="eothq0L4Ka9QhwZ8H1on-38" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
             <mxPoint x="510" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-42" value="读取最终结果" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-38" target="eothq0L4Ka9QhwZ8H1on-39" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1190" y="860" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-43" value="读取数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.75;entryY=1;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-38" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.2035" y="2" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1110" y="770" />
+              <mxPoint x="1020" y="750" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eothq0L4Ka9QhwZ8H1on-44" value="输入激活" style="curved=1;startArrow=none;endArrow=block;exitX=-0.014;exitY=0.407;entryX=0.997;entryY=0.414;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-33" target="eothq0L4Ka9QhwZ8H1on-29" edge="1">
+        <mxCell id="eothq0L4Ka9QhwZ8H1on-44" value="输入激活" style="curved=1;startArrow=none;endArrow=block;exitX=-0.007;exitY=0.428;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="820" y="470" />
-            </Array>
+            <mxPoint x="740" y="454" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eothq0L4Ka9QhwZ8H1on-45" value="权重" style="curved=1;startArrow=none;endArrow=block;entryX=0.997;entryY=0.676;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="eothq0L4Ka9QhwZ8H1on-29" edge="1">
+        <mxCell id="eothq0L4Ka9QhwZ8H1on-45" value="权重" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=-0.001;exitY=0.696;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="eothq0L4Ka9QhwZ8H1on-33">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="870" y="567" as="sourcePoint" />
+            <mxPoint x="840" y="570" as="sourcePoint" />
+            <mxPoint x="740" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eothq0L4Ka9QhwZ8H1on-46" value="部分和(PSum)" style="curved=1;startArrow=none;endArrow=block;exitX=1.001;exitY=0.155;entryX=-0.005;entryY=0.134;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-29" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
+        <mxCell id="eothq0L4Ka9QhwZ8H1on-46" value="部分和(PSum)" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.159;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="740" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-47" value="写入部分和" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-33" target="eothq0L4Ka9QhwZ8H1on-38" edge="1">
-          <mxGeometry x="-0.0102" y="15" relative="1" as="geometry">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="820" y="760" />
+              <mxPoint x="710" y="720" />
             </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-48" value="地址/命令" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-40" target="eothq0L4Ka9QhwZ8H1on-33" edge="1">
@@ -86,11 +81,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-49" value="使能信号" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="eothq0L4Ka9QhwZ8H1on-40" target="eothq0L4Ka9QhwZ8H1on-29" edge="1">
-          <mxGeometry x="-1" y="-70" relative="1" as="geometry">
+          <mxGeometry x="-0.422" y="-11" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="470" y="250" />
             </Array>
-            <mxPoint x="-14" y="18" as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eothq0L4Ka9QhwZ8H1on-30" value="PE" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" parent="1" vertex="1">
